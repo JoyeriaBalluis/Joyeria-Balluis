@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyería Balluis</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f7f1e9;
+            font-family: "Montserrat", sans-serif;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 380px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-family: "Playfair Display", serif;
+            margin-top: 25px;
+            font-size: 48px;
+        }
+
+        h2 {
+            font-family: "Playfair Display", serif;
+            text-align: center;
+            font-size: 32px;
+            margin-top: 60px;
+        }
+
+        p {
+            max-width: 800px;
+            text-align: center;
+            margin: 10px auto;
+            line-height: 1.7;
+        }
+
+        .collection {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            padding: 40px 0;
+        }
+
+        .item {
+            text-align: center;
+            width: 260px;
+        }
+
+        .item img {
+            width: 230px;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .buttons a {
+            background-color: #d1b37b;
+            padding: 15px 28px;
+            color: white;
+            border-radius: 6px;
+            margin: 10px;
+            font-size: 18px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .brand-section {
+            text-align: center;
+        }
+
+        .brand-section img {
+            width: 140px;
+            margin: 15px;
+            opacity: 0.9;
+        }
+
+        .mapa {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        iframe {
+            border: 0;
+            border-radius: 12px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 30px;
+            background-color: #e8dcc8;
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="joya-portada.jpg" alt="Imagen principal de joyería">
+    <h1>JOYERÍA BALLUIS</h1>
+    <p style="font-family:'Playfair Display'; font-size: 20px;">
+        Exquisite Jewelry for Every Occasion
+    </p>
+</header>
+
+<!-- SOBRE NOSOTROS -->
+<h2>ABOUT</h2>
+<p>
+    Our commitment to aee the reciprierian in every zrafu tuwev.  
+    Me’ve the cowet cxpérisehtm sion, exceptional craftsmanship whbtie eisoryteoasiondom.
+</p>
+
+<p>
+    En Joyería Balluis ofrecemos atención personalizada, artesanía experta y la posibilidad
+    de crear **la joya de tus sueños** totalmente a medida.  
+    Todo nuestro **oro es de 18 kilates certificado**.
+</p>
+
+<p>
+    Disponemos de:  
+    ✔ Anillos de casamiento  
+    ✔ Joyas para bebés  
+    ✔ Cadenas y pulseras de plata y oro  
+    ✔ Limpieza profesional de joyas  
+</p>
+
+<!-- MARCAS -->
+<h2>Marcas</h2>
+<div class="brand-section">
+    <img src="lotus.png" alt="Lotus">
+    <img src="festina.png" alt="Festina">
+    <img src="guess.png" alt="Guess">
+    <img src="nowley.png" alt="Nowley">
+</div>
+
+<!-- COLECCIÓN -->
+<h2>COLLECTION</h2>
+<div class="collection">
+    <div class="item">
+        <img src="collar.jpg">
+        <p><strong>NECKLACE</strong></p>
+    </div>
+
+    <div class="item">
+        <img src="pendientes.jpg">
+        <p><strong>EARRINGS</strong></p>
+    </div>
+
+    <div class="item">
+        <img src="anillo.jpg">
+        <p><strong>RING</strong></p>
+    </div>
+</div>
+
+<!-- RESERVAS -->
+<h2>Reservas</h2>
+<p>
+    Para reservar una joya se requiere una **cantidad mínima** (preguntar en tienda).  
+    Las reservas tienen una duración de **1 mes y medio**.
+</p>
+<p>
+    Para más información, puedes visitarnos en la tienda y te atenderemos personalmente.
+</p>
+
+<!-- CONTACTO -->
+<h2>Contacto</h2>
+
+<div class="buttons">
+    <a href="tel:933456391">📞 Llamar: 933 45 63 91</a>
+    <a href="https://www.instagram.com/4t_jeweller" target="_blank">📸 Instagram</a>
+</div>
+
+<p><strong>Email:</strong> joyeriaballuis2@gmail.com</p>
+
+<!-- HORARIO -->
+<h2>Horario</h2>
+<p>
+    Lunes a Viernes: 09:30 – 14:00 / 17:00 – 20:00  
+    <br>Sábados: 09:30 – 14:00  
+    <br>Domingos: Cerrado
+</p>
+
+<!-- UBICACIÓN -->
+<h2>Ubicación</h2>
+<p><strong>Carrer de la Mare de Déu de Lorda 24-26, 08033 Barcelona</strong></p>
+
+<div class="mapa">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.651820089745!2d2.107641776007107!3d41.39587037129969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49819df6ea0e5%3A0x9f27e725dca79e3f!2sCarrer%20de%20la%20Mare%20de%20Déu%20de%20Lorda%2C%2024%2C%2008033%20Barcelona!5e0!3m2!1ses!2ses!4v1731612340000!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+<footer>
+    © 2025 Joyería Balluis – Elegancia y Distinción
+</footer>
+
+</body>
+</html>
